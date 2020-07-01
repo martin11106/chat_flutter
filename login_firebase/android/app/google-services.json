@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1050648341052",
+    "firebase_url": "https://bocadillo-ab47e.firebaseio.com",
+    "project_id": "bocadillo-ab47e",
+    "storage_bucket": "bocadillo-ab47e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050648341052:android:73d6a403f037858d12b139",
+        "android_client_info": {
+          "package_name": "com.loginAdmin.loginfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050648341052-3osdsipgsst4kogvc95iaq0koc7kubl8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASRQDUo6XrMSoDvhUD3H_bf06775dCpOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050648341052-3osdsipgsst4kogvc95iaq0koc7kubl8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
