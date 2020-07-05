@@ -72,9 +72,9 @@ class _Login_ScreenState extends State<Login_Screen> with ValidationMixins{
   Widget _passwordField(){
    return app_textfield(name:"ingrese la password",
       validator: validationPassword,
-     autoValidate: true,
+     autoValidate: autovalidate,
       Onsaved: (value){},
-      obscureText: autovalidate,
+      obscureText: true,
       controller: passwordController,
     );
   }

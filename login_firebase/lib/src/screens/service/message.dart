@@ -9,6 +9,6 @@ class messageService{
     return await firestore.collection("messages").getDocuments();
   }
   Stream<QuerySnapshot> getMessageStream(){
-    return firestore.collection("messages").snapshots();
+    return Firestore.instance.collection("messages").orderBy("timestamp", descending: true).snapshots();
   }
 }
